@@ -18,24 +18,25 @@
 
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
 	<header>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img class="header-img" src="img/img-mac.png" alt="Монитор">
+					<img class="header-img wow fadeInLeftBig" src="img/img-mac.png" alt="Монитор">
 				</div>
 				<!-- /.col-7 -->
 				<div class="col-xl-5">
-					<p class="header-pretitle">Тунеядец</p>
-					<h1 class="header-title">Стас Галицкий</h1>
-					<p class="header-subtitle">Профессиональный эскапист
+					<p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Тунеядец</p>
+					<h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Стас Галицкий</h1>
+					<p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Профессиональный эскапист
 					<br>
 					Дурень высшего сорта
 					</p>
-					<div class="header-buttton-block">
-						<a href="https://vk.com/bukvalho_hnkto" class="header-button">Довериться</a>
+					<div class="header-buttton-block wow fadeInRightBig" data-wow-delay="0.1s">
+						<a href="https://vk.com/bukvalho_hnkto" class="header-button" data-wow-delay="0.4s">Довериться</a>
 						<small>*Халява</small>
 					</div>
 					<!-- /.header-buttton-block -->
@@ -50,7 +51,7 @@
 
 	<section class="portfolio">
 		<div class="container">
-			<div class="portfolio-block">
+			<div class="portfolio-block wow fadeInUpBig">
 				<h2 class="portfolio-title">Лук эт зыс</h2>
 				<p class="portfolio-subtitle">Не моя мазьня</p>
 				<div class="row">
@@ -93,10 +94,10 @@
 				<div class="col-md-4">
 					<div class="social-block">
 					<P>Подпишись!</P>
-					<a href="#"> <img src="img/social/facebook-logo-button.png" alt="facebook"></a>
-					<a href="#"> <img src="img/social/telegram-symbol.png" alt="telegram"></a>
-					<a href="https://vk.com/bukvalho_hnkto"> <img src="img/social/vk-social-logotype.png" alt="vk"></a>
-					<a href="#"> <img src="img/social/youtube-symbol.png" alt="youtube"></a>
+					<a href="#"> <img src="img/social/facebook-logo-button.png" alt="facebook" class="wow bounceInDown" data-wow-delay="0.1s"></a>
+					<a href="#"> <img src="img/social/telegram-symbol.png" alt="telegram" class="wow bounceInDown" data-wow-delay="0.2s"></a>
+					<a href="https://vk.com/bukvalho_hnkto"> <img src="img/social/vk-social-logotype.png" alt="vk" class="wow bounceInDown" data-wow-delay="0.3s"></a>
+					<a href="#"> <img src="img/social/youtube-symbol.png" alt="youtube" class="wow bounceInDown" data-wow-delay="0.4s"></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -113,6 +114,12 @@
 		</div>
 		<!-- /.container -->
 	</footer>
+
+	<script src="css/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+
 
 </body>
 </html>
